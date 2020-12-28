@@ -1,0 +1,9 @@
+apply plugin: 'java'
+sourceCompatibility = 1.8
+
+dependencies {
+    compile gradleApi()
+    compile 'com.android.tools.build:gradle:3.5.3'
+//    compile "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10"
+//    compile "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10"
+}
